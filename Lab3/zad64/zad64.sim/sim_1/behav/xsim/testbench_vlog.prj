@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../zad64.srcs/sim_1/new/save_file.v" \
+"../../../../zad64.srcs/sources_1/new/uart_receiver.v" \
+"../../../../zad64.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

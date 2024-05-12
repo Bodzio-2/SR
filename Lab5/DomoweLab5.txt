@@ -1,0 +1,5 @@
+Symulacja behawioralna - opóźnienie 10.100 ns
+Post-Synthesis Simulation - Functional - opóźnienie 110.100 ns
+Post-Synthesis Simulation - Timing - 115.892 ns
+Post-Implementation Simulation - Functional - opóźnienie 110.100 ns
+Post-Implementation Simulation - Timing - 118.748 ns

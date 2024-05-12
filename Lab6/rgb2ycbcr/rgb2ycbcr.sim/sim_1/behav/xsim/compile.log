@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/imports/new/delay_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_line_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/imports/new/regist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regist
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/new/rgb2ycbcr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2ycbcr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

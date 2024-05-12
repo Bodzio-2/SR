@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Apr 15 17:10:56 2024
+# Process ID: 9004
+# Current directory: C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/hdmi_vga_zybo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4640 C:\Users\dunge\Desktop\Systemy Rekonfigurowalne\Lab5\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Log file: C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/hdmi_vga_zybo/vivado.log
+# Journal file: C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/hdmi_vga_zybo\vivado.jou
+# Running On: DESKTOP-4SO6743, OS: Windows, CPU Frequency: 1297 MHz, CPU Physical cores: 2, Host memory: 8500 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/hdmi_vga_zybo/hdmi_vga_zybo.xpr}
+update_compile_order -fileset sources_1
+open_project {C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/project_81/project_81.xpr}
+current_project hdmi_vga_zybo
+close_project

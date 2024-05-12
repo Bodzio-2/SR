@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/simulation_models/simulation_models.sim/sim_1/impl/func/xsim/tb_main_Lut_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-311] analyzing module main_lut
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_v8_4_7
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_v8_4_7_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/simulation_models/simulation_models.srcs/sim_1/new/tb_main_Lut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_main_Lut
+WARNING: [VRFC 10-2938] 'douta' is already implicitly declared on line 30 [C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/simulation_models/simulation_models.srcs/sim_1/new/tb_main_Lut.v:33]
+WARNING: [VRFC 10-2938] 'addr' is already implicitly declared on line 29 [C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/simulation_models/simulation_models.srcs/sim_1/new/tb_main_Lut.v:35]
+WARNING: [VRFC 10-2938] 'clk' is already implicitly declared on line 28 [C:/Users/dunge/Desktop/Systemy Rekonfigurowalne/Lab5/simulation_models/simulation_models.srcs/sim_1/new/tb_main_Lut.v:36]

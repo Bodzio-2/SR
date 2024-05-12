@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.gen/sources_1/ip/c_add/sim/c_add.vhd,1713789552,vhdl,,,,c_add,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1713774644,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.sim/sim_1/behav/xsim/glbl.v,1697210496,verilog,,,,glbl,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sim_1/new/testbench.v,1714385186,verilog,,,,testbench,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/imports/new/delay_line.v,1713803196,verilog,,C:/Users/dunge/Desktop/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v,,delay_line_4,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/imports/new/regist.v,1713803880,verilog,,C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/new/rgb2ycbcr.v,,regist,,,,,,,,
+C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/new/rgb2ycbcr.v,1715521286,verilog,,C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sim_1/new/testbench.v,,rgb2ycbcr,,,,,,,,
+C:/Users/dunge/Desktop/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v,1715009994,verilog,,C:/Users/dunge/Desktop/SR/Lab6/rgb2ycbcr/rgb2ycbcr.srcs/sources_1/imports/new/regist.v,,delay_line,,,,,,,,

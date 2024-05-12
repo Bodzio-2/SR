@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="102.204 ns"></ZoomEndTime>
+      <Cursor1Time time="7.803 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/A" type="array">
+      <obj_property name="ElementShortName">A[19:0]</obj_property>
+      <obj_property name="ObjectShortName">A[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/B" type="array">
+      <obj_property name="ElementShortName">B[19:0]</obj_property>
+      <obj_property name="ObjectShortName">B[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/C" type="array">
+      <obj_property name="ElementShortName">C[19:0]</obj_property>
+      <obj_property name="ObjectShortName">C[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Y" type="array">
+      <obj_property name="ElementShortName">Y[40:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[40:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/test_module/addition/S" type="array">
+      <obj_property name="ElementShortName">S[20:0]</obj_property>
+      <obj_property name="ObjectShortName">S[20:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/test_module/delayed_C" type="array">
+      <obj_property name="ElementShortName">delayed_C[19:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_C[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/test_module/delay_C/y" type="array">
+      <obj_property name="ElementShortName">y[19:0]</obj_property>
+      <obj_property name="ObjectShortName">y[19:0]</obj_property>
+   </wvobject>
+</wave_config>
