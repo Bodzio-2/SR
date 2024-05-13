@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 13 17:19:35 2024
+| Host         : lsriw-krzesanica running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7k70tfbv676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mult_gen_0 (xilinx.com:ip:mult_gen:12.0) from (Rev. 19) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 13 17:19:35 2024
+| Host         : lsriw-krzesanica running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7k70tfbv676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'c_add_128'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of c_add_128 (xilinx.com:ip:c_addsub:12.0) from (Rev. 16) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 13 17:19:35 2024
+| Host         : lsriw-krzesanica running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7k70tfbv676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'c_add'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of c_add (xilinx.com:ip:c_addsub:12.0) from (Rev. 16) to (Rev. 14)
+

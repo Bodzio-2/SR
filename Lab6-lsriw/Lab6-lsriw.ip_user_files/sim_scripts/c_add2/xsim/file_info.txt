@@ -1,0 +1,1 @@
+c_add2.vhd,vhdl,xil_defaultlib,../../../../Lab6-lsriw.gen/sources_1/ip/c_add2/sim/c_add2.vhd,

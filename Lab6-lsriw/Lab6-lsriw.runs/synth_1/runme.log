@@ -1,0 +1,340 @@
+
+*** Running vivado
+    with args -log rgb2ycbcr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rgb2ycbcr.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source rgb2ycbcr.tcl -notrace
+Command: synth_design -top rgb2ycbcr -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1793915
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2416.719 ; gain = 371.770 ; free physical = 9706 ; free virtual = 49397
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3423.949; parent = 2416.723; children = 1007.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rgb2ycbcr' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/new/rgb2ycbcr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_0' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.runs/synth_1/.Xil/Vivado-1793839-lsriw-krzesanica/realtime/mult_gen_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_0' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.runs/synth_1/.Xil/Vivado-1793839-lsriw-krzesanica/realtime/mult_gen_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'c_add' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.runs/synth_1/.Xil/Vivado-1793839-lsriw-krzesanica/realtime/c_add_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'c_add' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.runs/synth_1/.Xil/Vivado-1793839-lsriw-krzesanica/realtime/c_add_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'delay_line_4' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regist' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line_4' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/delay_line.v:23]
+INFO: [Synth 8-6157] synthesizing module 'delay_line' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'q' does not match port width (36) of module 'regist' [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/delay_line/delay_line.srcs/sources_1/new/delay_line.v:23]
+WARNING: [Synth 8-689] width (3) of port connection 'y' does not match port width (4) of module 'delay_line' [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/new/rgb2ycbcr.v:242]
+INFO: [Synth 8-6155] done synthesizing module 'rgb2ycbcr' (0#1) [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/new/rgb2ycbcr.v:23]
+WARNING: [Synth 8-3917] design rgb2ycbcr has port pixel_out[23] driven by constant 0
+WARNING: [Synth 8-3917] design rgb2ycbcr has port pixel_out[22] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2483.688 ; gain = 438.738 ; free physical = 9789 ; free virtual = 49481
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3490.918; parent = 2483.691; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2498.531 ; gain = 453.582 ; free physical = 9788 ; free virtual = 49480
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3505.762; parent = 2498.535; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2498.531 ; gain = 453.582 ; free physical = 9788 ; free virtual = 49479
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3505.762; parent = 2498.535; children = 1007.227
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2498.531 ; gain = 0.000 ; free physical = 9783 ; free virtual = 49475
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RY_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RY_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GY_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GY_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BY_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BY_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RCb_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RCb_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GCb_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GCb_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BCb_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BCb_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RCr_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'RCr_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GCr_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'GCr_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BCr_mult'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'BCr_mult'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_1'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_1'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_2'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_2'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_1'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_1'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_2'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_2'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_3'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cb_add_3'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_1'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_1'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_2'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_2'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_3'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Cr_add_3'
+Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_3'
+Finished Parsing XDC File [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.gen/sources_1/ip/c_add/c_add/c_add_in_context.xdc] for cell 'Y_add_3'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.281 ; gain = 0.000 ; free physical = 9697 ; free virtual = 49389
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.281 ; gain = 0.000 ; free physical = 9697 ; free virtual = 49389
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9755 ; free virtual = 49447
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9755 ; free virtual = 49447
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for BCb_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for BCr_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for BY_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for GCb_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for GCr_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for GY_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RCb_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RCr_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RY_mult. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cb_add_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cb_add_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cb_add_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cr_add_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cr_add_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Cr_add_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Y_add_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Y_add_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Y_add_3. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9756 ; free virtual = 49447
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9756 ; free virtual = 49448
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               36 Bit    Registers := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[5].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[4].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[3].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[2].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[1].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'signal_delay/genblk1[0].register_i/val_reg' and it is trimmed from '36' to '3' bits. [/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.srcs/sources_1/imports/new/regist.v:37]
+WARNING: [Synth 8-3917] design rgb2ycbcr has port pixel_out[23] driven by constant 0
+WARNING: [Synth 8-3917] design rgb2ycbcr has port pixel_out[22] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9741 ; free virtual = 49437
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1851.042; parent = 1642.996; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1933.479; parent = 1725.747; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1933.611; parent = 1725.880; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9620 ; free virtual = 49316
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.334; parent = 1726.603; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.795; parent = 1727.063; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.811; parent = 1727.079; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.842; parent = 1727.110; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.904; parent = 1727.173; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.904; parent = 1727.173; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.920; parent = 1727.188; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|rgb2ycbcr   | signal_delay/genblk1[5].register_i/val_reg[2] | 6      | 3     | NO           | YES                | YES               | 3      | 0       | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |mult_gen_0    |         9|
+|2     |c_add         |         9|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |c_add      |     9|
+|10    |mult_gen   |     1|
+|11    |mult_gen_0 |     8|
+|19    |BUFG       |     1|
+|20    |SRL16E     |     3|
+|21    |FDRE       |   114|
+|22    |IBUF       |    28|
+|23    |OBUF       |    27|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9626 ; free virtual = 49322
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1934.936; parent = 1727.204; children = 208.046
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.496; parent = 2632.270; children = 1007.227
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2664.281 ; gain = 453.582 ; free physical = 9682 ; free virtual = 49378
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2664.281 ; gain = 619.332 ; free physical = 9682 ; free virtual = 49378
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2664.281 ; gain = 0.000 ; free physical = 9786 ; free virtual = 49482
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.281 ; gain = 0.000 ; free physical = 9729 ; free virtual = 49425
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 5fd83127
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2664.281 ; gain = 924.395 ; free physical = 9930 ; free virtual = 49626
+INFO: [Common 17-1381] The checkpoint '/home/lsriw/SR/BodziochKonrad/SR/Lab6-lsriw/Lab6-lsriw.runs/synth_1/rgb2ycbcr.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rgb2ycbcr_utilization_synth.rpt -pb rgb2ycbcr_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 18:33:32 2024...
