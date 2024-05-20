@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../tunnel_vision_downgraded.gen/sources_1/ip/rgb2vga_0/src/rgb2vga.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/ip/rgb2vga_0/sim/rgb2vga_0.vhd" \
+
+nosort

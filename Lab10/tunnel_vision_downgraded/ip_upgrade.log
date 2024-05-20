@@ -1,0 +1,193 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:45:53 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dvi2rgb_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dvi2rgb_0 (digilentinc.com:ip:dvi2rgb:2.0 (Rev. 8)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:43:56 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dist_mem_gen_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dist_mem_gen_0 (xilinx.com:ip:dist_mem_gen:8.0) from (Rev. 14) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. When checking the upgrade script, note that parameter names are case sensitive.
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dist_mem_gen_0'. These changes may impact your design.
+
+
+-Upgraded port 'a' width 6 differs from original width 8
+
+-Upgrade has removed port 'qspo'
+
+-Upgrade has added port 'd'
+
+-Upgrade has added port 'spo'
+
+-Upgrade has added port 'we'
+
+
+4. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Customization errors found on 'dist_mem_gen_0'. Restoring to previous valid configuration.
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 -user_name dist_mem_gen_0
+set_property -dict "\
+  CONFIG.Component_Name {dist_mem_gen_0} \
+  CONFIG.Pipeline_Stages {0} \
+  CONFIG.ce_overrides {ce_overrides_sync_controls} \
+  CONFIG.coefficient_file {../../../../lut.coe} \
+  CONFIG.common_output_ce {false} \
+  CONFIG.common_output_clk {false} \
+  CONFIG.data_width {8} \
+  CONFIG.default_data {0} \
+  CONFIG.default_data_radix {16} \
+  CONFIG.depth {256} \
+  CONFIG.dual_port_address {non_registered} \
+  CONFIG.dual_port_output_clock_enable {false} \
+  CONFIG.input_clock_enable {false} \
+  CONFIG.input_options {non_registered} \
+  CONFIG.memory_type {rom} \
+  CONFIG.output_options {registered} \
+  CONFIG.qualify_we_with_i_ce {false} \
+  CONFIG.reset_qdpo {false} \
+  CONFIG.reset_qsdpo {false} \
+  CONFIG.reset_qspo {false} \
+  CONFIG.simple_dual_port_address {non_registered} \
+  CONFIG.simple_dual_port_output_clock_enable {false} \
+  CONFIG.single_port_output_clock_enable {false} \
+  CONFIG.sync_reset_qdpo {false} \
+  CONFIG.sync_reset_qsdpo {false} \
+  CONFIG.sync_reset_qspo {false} " [get_ips dist_mem_gen_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:43:56 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 8) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:43:56 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 8) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:43:56 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 13) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon May 20 17:43:55 2024
+| Host         : lsriw-giewont running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 13) to (Rev. 11)
+

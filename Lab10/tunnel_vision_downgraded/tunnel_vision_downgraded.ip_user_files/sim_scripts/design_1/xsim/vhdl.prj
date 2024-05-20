@@ -1,0 +1,23 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_rgb2ycbcr_0_0/src/mult_gen_0/sim/mult_gen_0.vhd" \
+"../../../bd/design_1/ip/design_1_rgb2ycbcr_0_0/src/c_add/sim/c_add.vhd" \
+"../../../bd/design_1/ip/design_1_rgb2ycbcr_0_0/src/c_add2/sim/c_add2.vhd" \
+"../../../bd/design_1/ipshared/69dc/src/rgb2vga.vhd" \
+"../../../bd/design_1/ip/design_1_rgb2vga_0_1/sim/design_1_rgb2vga_0_1.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/DVI_Constants.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/ChannelBond.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/SyncAsync.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/GlitchFilter.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/TWI_SlaveCtl.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/EEPROM_8b.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/InputSERDES.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/PhaseAlign.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/ResyncToBUFG.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/SyncAsyncReset.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/SyncBase.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/TMDS_Clocking.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/TMDS_Decoder.vhd" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/bd/design_1/ipshared/f99d/src/dvi2rgb.vhd" \
+"../../../bd/design_1/ip/design_1_dvi2rgb_0_1/sim/design_1_dvi2rgb_0_1.vhd" \
+
+nosort

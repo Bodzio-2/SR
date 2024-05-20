@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../tunnel_vision_downgraded.gen/sources_1/ip/dvi2rgb_0/src/ila_pixclk/hdl/verilog" --include "../../../../tunnel_vision_downgraded.gen/sources_1/ip/dvi2rgb_0/src/ila_refclk/hdl/verilog" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/ip/dvi2rgb_0/src/ila_pixclk/sim/ila_pixclk.v" \
+"../../../../tunnel_vision_downgraded.gen/sources_1/ip/dvi2rgb_0/src/ila_refclk/sim/ila_refclk.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

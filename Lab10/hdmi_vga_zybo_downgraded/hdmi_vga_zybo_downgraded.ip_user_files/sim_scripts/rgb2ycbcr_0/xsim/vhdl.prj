@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../hdmi_vga_zybo_downgraded.gen/sources_1/ip/rgb2ycbcr_0/src/mult_gen_0/sim/mult_gen_0.vhd" \
+"../../../../hdmi_vga_zybo_downgraded.gen/sources_1/ip/rgb2ycbcr_0/src/c_add/sim/c_add.vhd" \
+"../../../../hdmi_vga_zybo_downgraded.gen/sources_1/ip/rgb2ycbcr_0/src/c_add2/sim/c_add2.vhd" \
+
+nosort
